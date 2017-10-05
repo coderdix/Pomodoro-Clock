@@ -1,0 +1,105 @@
+body {
+	background-color: #FB4347;
+}
+
+.header {
+	color: #fff;
+}
+
+i.fa-clock-o {
+	font-size: 2.5em;
+	margin-right: 0.2em;
+}
+
+.logo-text {
+	font-size: 40px;
+	font-weight: 200;
+}
+
+.reset {
+	text-align: right;
+	cursor: pointer;
+	position: relative;
+	top: 1.3em
+}
+
+.reset:hover {
+	color: #000;
+}
+
+.clock {
+	text-align: center;
+	font-size: 10em;
+	font-weight: 100;
+	color: #fff;
+}
+
+.controls {
+	color: #fff;
+	text-align: center;
+	margin-top: 2em;
+}
+
+.start {
+	border: 2px solid;
+	border-radius: 50%;
+	padding: 5.8em .6em 3.7em .6em 
+}
+
+.start > i {
+	color: #fff;
+	font-size: 4em;
+	background: rgba(255,255,255,0.5);
+	padding: 0.7em 0.65em 0.7em 0.9em;
+	border-radius: 50%;
+	box-shadow: 0px 0px 150px #fff;
+	cursor: pointer;
+}
+
+.start > i:hover {
+	box-shadow: 0 0 200px #ccc;
+}
+
+.modifiers {
+	text-align: center;
+}
+
+.modifiers > .container > div {
+	width: 49.5%
+}
+
+.footer {
+	background-color: #F0EFF4;
+}
+
+.title {
+	font-size: 2em;
+	font-weight: 200;
+}
+
+.modifiers i.fa {
+	font-size: 1em;
+	cursor: pointer;
+	user-select: none;
+}
+
+.modifiers {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 1em 0 1.5em;
+}
+
+.counter {
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+.length {
+	font-size: 3em;
+	color: #363636;
+	margin: 0 0.5em;
+	vertical-align: middle;
+
+}

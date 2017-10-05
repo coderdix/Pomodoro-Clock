@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Pomodoro Clock</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="font-awesome.min.css/">
+		<link rel="stylesheet" href="app.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="container-fluid mt-2">
+				<div class="d-flex justify-content-end">
+					<div class="mr-auto p-2">
+						<i class="fa fa-clock-o fa-2x"></i>
+						<span class="logo-text">Pomodoro</span>
+					</div>
+					<div class="p-2">
+						<span class="reset">Reset</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="body">
+			<div class="container">
+				<div id="alert"></div>
+				<div id="pomodoro">
+					<div class="clock">
+						<span class="minutes"></span>
+						<span class="colon">:</span>
+						<span class="seconds"></span>
+					</div>
+					<div class="controls">
+						<span class="start"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer fixed-bottom">
+			<div class="modifiers">
+				<div class="container">
+					<div class="break d-inline-block">
+						<div class="title">Break</div>
+						<div class="counter">
+							<span class="add-min">
+								<i class="fa fa-plus"></i>
+							</span>
+							<span class="length"></span>
+							<span class="sub-min">
+								<i class="fa fa-minus"></i>
+							</span>
+						</div>
+					</div>
+					<div class="session d-inline-block">
+						<div class="title">Session</div>
+						<div class="counter">
+							<span class="add-min">
+								<i class="fa fa-plus"></i>
+							</span>
+							<span class="length"></span>
+							<span class="sub-min">
+								<i class="fa fa-minus"></i>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script src="ion.sound.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
+
